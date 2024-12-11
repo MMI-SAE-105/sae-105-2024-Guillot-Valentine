@@ -19,6 +19,7 @@
 }
 
 .card__btn{
+    
     text-decoration: none;
     text-transform: uppercase;
     color: var(--white);
@@ -28,7 +29,11 @@
     letter-spacing: 1px;
     line-height: 160%;
     border: 1px solid var(--orange);
-    border-radius: 5px;
+    border-radius: 5px 5px;
     background-color: var(--orange);
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
 }
