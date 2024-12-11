@@ -12,6 +12,7 @@
 
     <title>Festival CinéNature</title>
     <link rel="stylesheet" href="./src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 <body>
     <header class="header">
@@ -19,16 +20,24 @@
             <img src="/assets/icone/logofestival.svg" alt="Logo Festival CinéNature" />
         </a>
     
-        <button class="header__menu menu" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
             <span class="menu-btn__bar" aria-hidden="true"></span>
         </button>
-
-        <nav class="header__nav nav" id="mainNav" aria-hidden="true">
+        
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
             <ul class="menu__list list-unstyled">
-                <li class="menu__item"><a class="menu_link" href="/leFestival.html">Le Festival</a></li>
-                <li class="menu__item"><a href="/programme2025.html">Programme 2025</a></li>
-                <li class="menu__item"><a href="/infosPratiques.html">Infos Pratiques</a></li>
-                <li class="menu__item"><a href="/contact.html">Contact</a></li>
+                <li class="menu__item">
+                    <a class="menu__link" href="a_propos.html">Le Festival</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="programme.html">Programme 2025</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="films.html">Infos Pratiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="invites.html">Contact</a>
+                </li>
             </ul>
         </nav>
         </header>
