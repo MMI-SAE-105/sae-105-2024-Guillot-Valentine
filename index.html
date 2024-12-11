@@ -11,6 +11,7 @@
     <link rel="manifest" href="./assets/favicon/site.webmanifest" />
 
     <title>Festival CinéNature</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
 </head>
 <body>
     <header class="header">
@@ -18,12 +19,12 @@
             <img src="/assets/icone/logofestival.svg" alt="Logo Festival CinéNature" />
         </a>
     
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        <button class="header__menu menu" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
             <span class="menu-btn__bar" aria-hidden="true"></span>
         </button>
 
         <nav class="header__nav nav" id="mainNav" aria-hidden="true">
-            <ul class="menu__list">
+            <ul class="menu__list list-unstyled">
                 <li class="menu__item"><a class="menu_link" href="/leFestival.html">Le Festival</a></li>
                 <li class="menu__item"><a href="/programme2025.html">Programme 2025</a></li>
                 <li class="menu__item"><a href="/infosPratiques.html">Infos Pratiques</a></li>
@@ -145,11 +146,11 @@
         </main>
 
         <footer class="footer">
-            <img src="/assets/icone/logofestival.svg" alt="Logo du festival CinéNature"width="112" height="48.32" >
+            <img class="footer__logo" src="/assets/icone/logofestival.svg" alt="Logo du festival CinéNature"width="112" height="48.32" >
 
             <nav class="footer__menu">
                 <h3 class="footer__title">Menu</h3>
-                <ul class="list-unstyled">
+                <ul class="footer__mention list-unstyled">
                     <li><a href="#">Mentions légales</a></li>
                     <li><a href="#">Archives</a></li>
                     <li><a href="#">Contact & accès</a></li>
@@ -167,7 +168,7 @@
             
             <div class="footer__social">
                 <h3 class="footer__title">Nous suivre</h3>
-                <ul class="footer__list list-unstyled">
+                <ul class="footer__reseaux list-unstyled">
                     <li>
                         <a href="https://facebook.com" aria-label="Visitez notre page facebook">
                             <img src="/assets/icone/facebook.svg" aria-hidden="true" alt="" width="24" height="24" />
@@ -186,5 +187,5 @@
                 </ul>
             </div>
         </footer>
-</body>
+    </body>
 </html>

@@ -1,0 +1,35 @@
+
+body{
+    color: var(--black);
+    font-family: var(--Playfair);
+    background-color: var(--white);
+    font-weight: 500;
+}
+
+h1, h2, h3{
+    font-family: var(--Lato);
+    font-weight: 800;
+}
+
+h1{
+    font-size: var(--fs-xl);
+}
+
+h2{
+    font-size: var(--fs-lg);
+}
+
+h3{
+    font-size: var(--fs-lg);
+    font-weight: 600;
+}
+
+h4{
+    font-size: var(--fs-xl);
+}
+
+small{
+    font-size: var(--fs-s);
+    font-weight: 300;
+    font-family: var(--Mulish);
+}

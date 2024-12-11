@@ -8,7 +8,14 @@
     --orange: #e48227;
     --white: #f6f6f6;
 
-    /* typographie */
-    
-    --font-sans: "Mulish", sans-serif;
+    /* text size */
+    --fs-xs: 0.6875rem;
+    --fs-s: 0.8125rem;
+    --fs-md: 0.9375rem;
+    --fs-lg: 1.125rem;
+    --fs-xl: 1.5rem;
+
+    --Mulish: 'Mulish', sans-serif;
+    --Playfair: "Playfair", serif;
+    --Lato: "Lato", sans-serif;
 }
