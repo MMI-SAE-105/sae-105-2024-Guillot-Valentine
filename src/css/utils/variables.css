@@ -1,0 +1,14 @@
+/* Variable collection */
+:root {
+    /* color */
+    --black: #0f0f0f;
+    --gray: #474747;
+    --gray1: #363636;
+    --green: #09b24c;
+    --orange: #e48227;
+    --white: #f6f6f6;
+
+    /* typographie */
+    
+    --font-sans: "Mulish", sans-serif;
+}
