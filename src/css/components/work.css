@@ -1,11 +1,17 @@
 .work {
     display: block;
-    padding-left: 22px;
-    padding-right: 25px;
+    margin-bottom: 100px;
+}
+
+.work__img{
+    width: auto;
+    height: 189px;
 }
 
 .work__title {
-    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .work__title::after{
@@ -26,6 +32,10 @@
     margin-bottom: 15px;
 }
 
+.work__title, .work__body{
+    margin-left: 22px;
+}
+
 .work__btn{
     float: right;
     text-decoration: none;
@@ -38,4 +48,5 @@
     line-height: 160%;
     border: 1px solid var(--orange);
     padding: 10px;
+    margin-right: 50px;
 }
