@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : GUILLOT
+- PRÉNOM : Valentine
+- GROUPE : B1
+- URL du site : https://comforting-platypus-97ec17.netlify.app/
+- URL FIGMA : https://www.figma.com/design/P4ZLsVuqudkuypUzII8XBB/GUILLOT_Valentine_SAE103_18-oct-2024?node-id=6-52&t=B8qcKwYgDLcbaRIV-1
 
 ## Sujet
 
