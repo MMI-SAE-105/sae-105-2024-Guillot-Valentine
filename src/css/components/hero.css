@@ -1,0 +1,23 @@
+.hero{}
+
+.hero__header{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding-bottom: 246px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.hero__img{
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+.hero__title{
+    margin-top: 200px;
+    margin-left: 30px;
+    margin-right: 118px;
+}

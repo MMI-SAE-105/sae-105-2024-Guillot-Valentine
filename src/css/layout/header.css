@@ -1,3 +1,8 @@
 .header{
-    background-color: blueviolet;
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 33px;
+    padding-top: 9px;
 }
