@@ -3,6 +3,7 @@ body{
     color: var(--black);
     font-family: var(--Playfair);
     background-color: var(--white);
+    font-size: var(--fs-md);
     font-weight: 500;
     overflow-x: none;
 }

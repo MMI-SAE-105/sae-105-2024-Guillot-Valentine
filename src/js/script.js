@@ -30,3 +30,10 @@ if (carousel) {
     carousel.scrollBy({ left: +350, behavior: "smooth" });
   });
 }
+
+//ACCORDEON
+const accordeon = document.querySelector(".accordeon");
+accordeon.addEventListener("click",() =>{
+    accordeon.querySelectorAll("details").forEach((det) => (det.open = false));
+}
+);
