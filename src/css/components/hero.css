@@ -4,14 +4,14 @@
     display: flex;
     justify-content: end;
     flex-direction: column;
-    padding-bottom: 225px;
+    padding-bottom: 200px;
     position: relative;
     overflow: hidden;
     
 }
 
 .hero__header2 {
-    position: relative;
+    
     display: flex;
     justify-content: end;
     flex-direction: column;
@@ -28,10 +28,13 @@
     position: absolute;
     inset: 0;
     z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero__title{
-    margin-top: 200px;
+    margin-top: 230px;
     margin-left: 30px;
     margin-right: 110px;
 }
