@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+
+    <title>Festival CinéNature</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="/" class="header__logo">
+            <img src="/assets/icone/logofestival.svg" alt="Logo Festival CinéNature" />
+        </a>
+
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="leFestival.html">Le Festival</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="programme2025.html">Programme 2025</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="infosPratiques.html">Infos Pratiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+    
+        <main>
+            <div class="hero__header2 container">
+                <h1 class="hero__title">Infos Pratiques</h1>
+                <div class="hero__img duotone">
+                    <img src="/assets/photo/photo_header.webp" alt="Photo du presqu'île Malsaucy" height="526" />
+                </div>
+            </div>
+
+            <article class="work">
+                <h2 class="work__title">Bien Préparer Votre Visite au Festival</h2>
+                <p class="work__body">Que vous soyez un habitué ou un nouveau venu, il est essentiel d’organiser votre séjour au festival pour profiter
+                pleinement de l'expérience. Voici toutes les informations nécessaires pour que votre venue se passe dans les meilleures
+                conditions, depuis les options de restauration jusqu’aux possibilités d'hébergement, en passant par les transports pour
+                accéder au site.</p>
+            </article>
+
+            <article class="work">
+                <h2 class="work__title">Nos Tarifs</h2>
+                <p class="work__body">Découvrez nos formules accessibles à tous. Que vous veniez pour une journée ou pour toute la durée du festival, nos
+                tarifs sont pensés pour encourager chacun à participer.</p>
+            </article>
+
+            <div class="carousel" aria-labelledby="carousel-heading">
+                <div class="carousel__container" role="region" aria-live="polite">
+                    <div class="carousel__item">
+                        <img src="/assets/photo/info_pratique/carousel_1.webp" alt="Tarif 4 jours" width="322" height="175" />
+                    </div>
+                    <div class="carousel__item">
+                        <img src="/assets/photo/info_pratique/carousel_2.webp" alt="Tarif Journée" width="250" height="175"  />
+                    </div>
+                    <div class="carousel__item">
+                        <img src="/assets/photo/info_pratique/carousel_3.webp" alt="Tarif Réduit" width="322" height="175"  />
+                    </div>
+                </div>
+                <div class="carousel__controls">
+                    <button class="carousel__btn carousel__btn--prev" aria-label="Défiler vers la gauche">
+                        <img src="/assets/icone/fleche.svg" alt="fleche gauche" />
+                    </button>
+                    <button class="carousel__btn carousel__btn--next" aria-label="Défiler vers la droite">
+                        <img src="/assets/icone/fleche.svg" alt="fleche droite" />
+                    </button>
+                </div>
+                <a class="carousel__btn--billet" href="#">Billetterie</a>
+            </div>
+
+        </main>
+        
+        <footer class="footer">
+            <img class="footer__logo" src="/assets/icone/logofestival.svg" alt="Logo du festival CinéNature" width="112" height="48">
+        
+            <nav class="footer__menu">
+                <h3 class="footer__title">Menu</h3>
+                <ul class="footer__mention list-unstyled">
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Archives</a></li>
+                    <li><a href="#">Contact & accès</a></li>
+                </ul>
+            </nav>
+        
+            <div class="footer__contact">
+                <h3 class="footer__title">Contact</h3>
+                <address class="footer__address">
+                    90000 Belfort<br />
+                    <a href="tel:03870078839">03 70 07 88 39</a><br />
+                    <a href="mailto:festival.cinenature@agglo-belfort.fr">festival.cinenature@agglo-belfort.fr</a>
+                </address>
+            </div>
+        
+            <div class="footer__social">
+                <h3 class="footer__title">Nous suivre</h3>
+                <ul class="footer__reseaux list-unstyled">
+                    <li>
+                        <a href="https://facebook.com" aria-label="Visitez notre page facebook">
+                            <img src="/assets/icone/facebook.svg" aria-hidden="true" alt="" width="24" height="24" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" aria-label="Visitez notre page instagram">
+                            <img src="/assets/icone/instagram.svg" aria-hidden="true" alt="" width="24" height="24" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tiktok.com" aria-label="Visitez notre page tiktok">
+                            <img src="/assets/icone/tiktok.svg" aria-hidden="true" alt="" width="24" height="24" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        </body>
+        
+        </html>

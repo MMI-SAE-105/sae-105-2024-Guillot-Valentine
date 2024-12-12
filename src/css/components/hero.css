@@ -4,10 +4,19 @@
     display: flex;
     justify-content: end;
     flex-direction: column;
-    padding-bottom: 246px;
+    padding-bottom: 226px;
     position: relative;
     overflow: hidden;
     
+}
+
+.hero__header2 {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding-bottom: 126px;
+    position: relative;
+    overflow: hidden;
 }
 
 .hero__img{
@@ -17,7 +26,7 @@
 }
 
 .hero__title{
-    margin-top: 200px;
+    margin-top: 220px;
     margin-left: 30px;
     margin-right: 110px;
 }
