@@ -21,7 +21,6 @@
 .card__btn{
     
     text-decoration: none;
-    text-transform: uppercase;
     color: var(--white);
     font-family: var(--Mulish);
     font-size: var(--fs-xs);

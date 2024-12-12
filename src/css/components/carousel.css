@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     margin: 16px auto;
+    margin-bottom: 60px;
 }
 
 .carousel__btn {
@@ -37,4 +38,16 @@
 
 .carousel__item img {
     display: block;
+}
+
+.carousel__btn--billet{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 6.67px;
+    font-weight: 700;
+    line-height: 160%;
+    border: 1px solid var(--orange);
+    padding: 15px 28px;
+    margin-left: 137px;
+    margin-top: 30px;
 }

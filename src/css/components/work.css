@@ -11,7 +11,7 @@
 
 .work__img{
     width: auto;
-    height: 189px;
+    height: 190px;
     margin-bottom: 25px;
 }
 
@@ -42,19 +42,27 @@
 
 .work__title, .work__body{
     margin-left: 22px;
+    margin-right: 25px;
 }
 
 .work__btn{
     float: right;
     text-decoration: none;
-    text-transform: uppercase;
     color: var(--black);
-    font-family: var(--Mulish);
     font-size: 6.67px;
     font-weight: 700;
-    letter-spacing: 10%;
     line-height: 160%;
     border: 1px solid var(--orange);
     padding: 10px;
     margin-right: 50px;
 }
+
+.work__content{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: max-content;
+        margin-bottom: 25px;
+}
+

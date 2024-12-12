@@ -11,6 +11,7 @@
 }
 
 .hero__header2 {
+    position: relative;
     display: flex;
     justify-content: end;
     flex-direction: column;

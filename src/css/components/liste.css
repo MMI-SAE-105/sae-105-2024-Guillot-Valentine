@@ -1,0 +1,21 @@
+.liste{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 22px;
+    margin-right: 25px;
+}
+
+.liste__part{
+    margin-bottom: 30px;;
+}
+
+.liste__icon{
+    width:25px ;
+}
+
+.liste__title{
+    font-size: var(--fs-lg);
+    font-family: var(--Lato);
+    font-weight: 800;
+    margin-left: 13px;
+}

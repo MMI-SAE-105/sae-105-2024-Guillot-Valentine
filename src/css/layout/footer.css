@@ -5,7 +5,6 @@
     font-size: var(--fs-xs);
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1px;
     line-height: 160%;
     padding-bottom: 100px;
     margin-top: 75px;
@@ -39,11 +38,11 @@
     margin-top: 20px;
 }
 
-.footer__address {
+.footer__address ,.footer__address a{
     font-size: var(--fs-s);
     font-weight: 300;
     font-style: normal;
-    text-transform: none;
+    text-transform: lowercase;
 }
 
 .footer__reseaux{
