@@ -23,10 +23,10 @@ const nextButton = document.querySelector(".carousel__btn--next");
 if (carousel) {
 
   prevButton.addEventListener("click", (evt) => {
-    carousel.scrollBy({ left: -300, behavior: "smooth" });
+    carousel.scrollBy({ left: -350, behavior: "smooth" });
   });
 
   nextButton.addEventListener("click", (evt) => {
-    carousel.scrollBy({ left: +300, behavior: "smooth" });
+    carousel.scrollBy({ left: +350, behavior: "smooth" });
   });
 }

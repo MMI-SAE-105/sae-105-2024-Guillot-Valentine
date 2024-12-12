@@ -3,15 +3,23 @@
     margin-bottom: 100px;
 }
 
+.work__sans--btn{
+    display: block;
+    margin-top: 55px;
+    margin-bottom: 0px;
+}
+
 .work__img{
     width: auto;
     height: 189px;
+    margin-bottom: 25px;
 }
 
 .work__title {
     width: 100%;
     height: auto;
     display: block;
+    margin-top: 0px;
 }
 
 .work__title::after{
