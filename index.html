@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
     <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
@@ -11,19 +13,23 @@
     <link rel="manifest" href="./assets/favicon/site.webmanifest" />
 
     <title>Festival CinéNature</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./src/css/style.css" />
+    <!-- JS -->
     <script type="module" src="/src/js/script.js"></script>
 </head>
+
 <body>
     <header class="header">
         <a href="/" class="header__logo">
             <img src="/assets/icone/logofestival.svg" alt="Logo Festival CinéNature" />
         </a>
-    
+
         <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
             <span class="menu-btn__bar" aria-hidden="true"></span>
         </button>
-        
+
         <nav class="header__menu menu" id="mainNav" aria-hidden="true">
             <ul class="menu__list list-unstyled">
                 <li class="menu__item">
@@ -40,28 +46,35 @@
                 </li>
             </ul>
         </nav>
-        </header>
-
-        <main>
+    </header>
+    <main>
+        <section class="hero">
             <div class="hero__header container">
-                <h1 class="hero__title">Edition 2025 <br /> du Festival CinéNature Du 5 au 8 Juillet 2025</h1>
+                <h1 class="hero__title">Édition 2025 <br /> du Festival CinéNature<br> Du 5 au 8 Juillet 2025</h1>
                 <div class="hero__img duotone">
-                    <img src="/assets/photo/photo_header2.webp" alt="Photo du presqu'île Malsaucy" height="526"/>
+                    <img src="/assets/photo/photo_header2.webp" alt="Photo de la presqu'île Malsaucy" height="526" />
                 </div>
             </div>
-            
-            <article class="work">                    
-                <h2 class="work__title">Un Festival au Coeur de la Nature</h2>
-                <p class="work__body">Bienvenue sur le site officiel de notre festival de cinéma éco-responsable, un rendez-vous unique qui célèbre à la fois
-                l'art et la planète. Notre mission : allier la création cinématographique avec des actions concrètes pour
-                l'environnement. Vous êtes curieux d'en savoir plus sur l'esprit du festival ? Découvrez l'histoire, les engagements et
-                la philosophie qui guident chaque aspect de cet événement.</p>
+        </section>
+
+        <div class="hero__margin">
+            <article class="work container">
+                <h2 class="work__title">Un Festival au Cœur de la Nature</h2>
+                <p class="work__body">
+                    Bienvenue sur le site officiel de notre festival de cinéma éco-responsable, un rendez-vous unique qui
+                    célèbre à la fois
+                    l'art et la planète. Notre mission : allier la création cinématographique avec des actions concrètes
+                    pour
+                    l'environnement. Vous êtes curieux d'en savoir plus sur l'esprit du festival ? Découvrez l'histoire, les
+                    engagements et
+                    la philosophie qui guident chaque aspect de cet événement.
+                </p>
                 <a class="work__btn bouton" href="/leFestival.html">
-                    <img src="/assets/icone/fleche.svg" aria-hidden="true" alt=""
-                    loading="lazy" />
+                    <img src="/assets/icone/fleche.svg" aria-hidden="true" alt="" loading="lazy" />
                     En savoir plus
                 </a>
             </article>
+        </div>
 
             <section class="card card__suivant">
                 <h2 class="card__title">DATES CLÉS</h2>
