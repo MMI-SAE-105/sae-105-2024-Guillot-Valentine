@@ -5,3 +5,9 @@
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+.film__b-a{
+    width:300px;
+    display: block;
+    margin: 0 auto;
+}
