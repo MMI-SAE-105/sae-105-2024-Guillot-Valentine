@@ -91,3 +91,14 @@
 .work__list li{
     margin-bottom: 10px;
 }
+
+.work__interligne{
+    font-size: var(--ls-s);
+    font-family: var(--Mulish);
+    font-weight: 300;
+    line-height: 160%;
+    color: var(--orange);
+    margin-left: 22px ;
+    margin-right: 25px;
+    margin-bottom: 0px;
+}
