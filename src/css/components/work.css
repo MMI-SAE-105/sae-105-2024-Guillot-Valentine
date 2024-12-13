@@ -102,3 +102,9 @@
     margin-right: 25px;
     margin-bottom: 0px;
 }
+
+.work__programme{
+    font-family: var(--Mulish);
+    font-size: var(--ls-xs);
+    font-weight: 600;
+}
